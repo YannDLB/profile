@@ -64,6 +64,10 @@ a:hover {
   padding-left: 0px;
 }
 
+#logos{
+  color:#575b5c
+}
+
 img {
   border: groove #575b5c;
   width: 300px;
