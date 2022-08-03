@@ -1,0 +1,93 @@
+body {
+  background-color: rgb(18, 19, 20);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgba(3, 3, 71, 0.9);
+  font-size: normal;
+  line-height: 130%
+}
+
+h1, h2, h3 {
+  color: rgba(7, 7, 21, 0.886);
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  color:rgba(37, 47, 60, 0.6);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(37, 47, 60, 0.8);
+}
+
+.button {
+  background-color: rgba(37, 47, 60, 0.6);
+  color: whitesmoke;
+  padding: 7px 40px;
+  border-radius: 4px;
+}
+
+.button:hover{
+  background-color: rgba(37, 47, 60, 0.8);
+  color: whitesmoke;
+}
+
+.container{
+  margin: 0 20%;
+}
+
+.font-l{
+  font-size: x-large;
+}
+
+.card {
+  background-color: whitesmoke;
+  padding: 2% 10%;
+  margin-top: 5%;
+  text-align: center;
+  border-radius: 7px;
+  box-shadow: 0 3px 7px rgba(199, 201, 204, 0.726);
+}
+
+.img-circle {
+  border-radius: 35%;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: xx-large;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+img {
+  border: groove #575b5c;
+  width: 300px;
+  height: auto
+}
+
+#b2 {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  img {
+    width: 200px;
+  }
+
+  #card1{
+    padding-bottom: 20px;
+  }
+
+  #b1 {
+    display: none;
+  }
+
+  #b2 {
+    display: block;
+  }
+}
