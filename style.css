@@ -65,7 +65,8 @@ a:hover {
 }
 
 #logos{
-  color:#575b5c
+  color:#575b5c;
+  font-size: small;
 }
 
 img {
