@@ -96,4 +96,7 @@ img {
   #b2 {
     display: block;
   }
+  .card {
+    padding: 2% 5%
+  }
 }
